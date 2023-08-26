@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Timeout;
 import java.util.concurrent.TimeUnit;
 
 class MainTest {
-    @Disabled("Тест временно отключен.")
+    @Disabled("The MainTest is temporarily disabled.")
     @Test
     @Timeout(value = 22, unit = TimeUnit.SECONDS)
     void main() throws Exception {
